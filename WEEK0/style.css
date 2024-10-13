@@ -1,0 +1,61 @@
+body{
+
+   background-color: rgb(68, 67, 67);
+ 
+}
+.top-right-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.top-right-link:hover {
+    background-color: grey;
+    text-decoration: underline;
+}
+
+.adjacent-right {
+    position: absolute;
+    top: 10px;
+    right: 150px;
+    
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.adjacent-right:hover {
+    background-color: grey;
+    text-decoration: underline;
+}
+
+input {
+    border-radius: 20px 20px;
+    background-color: white;
+    font-size: 50px;
+}
+button {
+    border-radius: 10px 10px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+    right: 650px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
